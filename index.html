@@ -1,800 +1,1116 @@
 <!doctype html>
-<html lang="en" class="dark scroll-smooth">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Drex Agency - Web Development & Local Marketing in Ahmedabad</title>
-    <link rel="icon" type="image/png" href="logo.png" />
-    <link rel="shortcut icon" href="logo.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
     
-    <!-- SEO & Social Sharing Meta Tags -->
-    <meta name="description" content="Drex Agency Ahmedabad: High-converting Web Development, Google Maps SEO, and Meta Ads for ambitious businesses in South Bopal, Ahmedabad." />
-    <meta name="keywords" content="Drex Agency, Digital Marketing Ahmedabad, Web Development Gujarat, Meta Ads Agency, Google Map Ranking, Vikash Kumar, South Bopal" />
-    <meta name="author" content="Vikash Kumar - Drex Agency" />
+    <!-- Primary Page Title & Meta Description -->
+    <title>Vikash Kumar | Co-Founder, Elite Interior, Ahmedabad</title>
+    <meta
+      name="description"
+      content="Explore Vikash Kumar's official personal profile, professional biography, career journey, and association with Elite Interior in Ahmedabad, Gujarat."
+    />
+    <meta name="author" content="Vikash Kumar" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://vikash.eliteinterior.pro/" />
 
-    <!-- Open Graph / WhatsApp Preview -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Drex Agency - Digital Marketing & Web Development" />
-    <meta property="og:description" content="High-converting web design, Google Maps SEO, and targeted Meta Ads in Ahmedabad." />
-    <meta property="og:image" content="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200" />
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="INSERT_GOOGLE_SEARCH_CONSOLE_VERIFICATION_TOKEN_HERE" />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- Regional & Theme Color Metadata -->
+    <meta name="geo.region" content="IN-GJ" />
+    <meta name="geo.placename" content="Ahmedabad, Gujarat, India" />
+    <meta name="theme-color" content="#2563EB" />
 
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['"Plus Jakarta Sans"', 'sans-serif'],
-              display: ['"Space Grotesk"', 'sans-serif'],
-              handwriting: ['"Caveat"', 'cursive'],
-            }
-          }
-        }
-      }
-    </script>
-    
-    <!-- Lucide Icons CDN -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Favicon & Device Icons -->
+    <link rel="icon" type="image/svg+xml" href="assets/logo.png" />
+    <link rel="apple-touch-icon" href="assets/logo.png" />
 
-    <!-- Structured Data JSON-LD Schema for Google Sitelinks -->
+    <!-- Open Graph Social Sharing Metadata -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:site_name" content="Vikash Kumar" />
+    <meta property="og:title" content="Vikash Kumar | Co-Founder, Elite Interior, Ahmedabad" />
+    <meta
+      property="og:description"
+      content="Explore Vikash Kumar's official personal profile, professional biography, career journey, and association with Elite Interior in Ahmedabad, Gujarat."
+    />
+    <meta property="og:url" content="https://vikash.eliteinterior.pro/" />
+    <meta property="og:image" content="https://vikash.eliteinterior.pro/assets/images/vikash-kumar-social-preview.svg" />
+    <meta property="og:image:alt" content="Vikash Kumar, Co-Founder of Elite Interior, Ahmedabad" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter / X Social Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Vikash Kumar | Co-Founder, Elite Interior, Ahmedabad" />
+    <meta
+      name="twitter:description"
+      content="Explore Vikash Kumar's official personal profile, professional biography, career journey, and association with Elite Interior in Ahmedabad, Gujarat."
+    />
+    <meta name="twitter:image" content="https://vikash.eliteinterior.pro/assets/images/vikash-kumar-social-preview.svg" />
+
+    <!-- Google Fonts: Plus Jakarta Sans & Alex Brush for signature -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Schema.org JSON-LD Structured Data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "WebSite",
-          "@id": "https://www.drexagency.shop/#website",
-          "url": "https://www.drexagency.shop/",
-          "name": "Drex Agency",
-          "description": "High-converting Web Development, Google Maps SEO, and Meta Ads in South Bopal, Ahmedabad",
-          "publisher": {
+          "@type": "Person",
+          "@id": "https://vikash.eliteinterior.pro/#person",
+          "name": "Vikash Kumar",
+          "jobTitle": "Co-Founder",
+          "worksFor": {
             "@type": "Organization",
-            "name": "Drex Agency",
-            "url": "https://www.drexagency.shop/",
-            "logo": "https://www.drexagency.shop/logo.png"
-          }
+            "@id": "https://eliteinterior.pro/#organization",
+            "name": "Elite Interior",
+            "url": "https://eliteinterior.pro/"
+          },
+          "url": "https://vikash.eliteinterior.pro/",
+          "image": "https://vikash.eliteinterior.pro/vikashkumar.jpg",
+          "description": "Vikash Kumar directs digital strategy, technological infrastructure, and business operations at Elite Interior, an interior design and turnkey execution company based in Ahmedabad, Gujarat.",
+          "telephone": "+918529326036",
+          "email": "vikashkumar823981@gmail.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "A-212a, Sun South Trade, Gala Gymkhana Road, South Bopal",
+            "addressLocality": "Ahmedabad",
+            "addressRegion": "Gujarat",
+            "postalCode": "380058",
+            "addressCountry": "IN"
+          },
+          "homeLocation": {
+            "@type": "Place",
+            "name": "Bamarla, Serwa (Sedwa), Barmer, Rajasthan, India"
+          },
+          "sameAs": [
+            "https://in.linkedin.com/in/vikash-kumar-045934331",
+            "https://www.instagram.com/vikiiiii.04",
+            "https://www.facebook.com/share/1BFR5w2GRw",
+            "https://youtube.com/@vikly0",
+            "https://eliteinterior.pro/vikash-kumar-biography.html",
+            "https://eliteinterior.pro/Founder-story.html"
+          ]
         },
         {
-          "@type": "ItemList",
-          "@id": "https://www.drexagency.shop/#sitelinks",
-          "name": "Main Navigation",
-          "itemListElement": [
+          "@type": "HomeAndConstructionBusiness",
+          "@id": "https://eliteinterior.pro/#organization",
+          "name": "Elite Interior",
+          "url": "https://eliteinterior.pro/",
+          "logo": "https://vikash.eliteinterior.pro/logo.jpg",
+          "telephone": "+918529326036",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "A-212a, Sun South Trade, Gala Gymkhana Road, South Bopal",
+            "addressLocality": "Ahmedabad",
+            "addressRegion": "Gujarat",
+            "postalCode": "380058",
+            "addressCountry": "IN"
+          },
+          "founders": [
             {
-              "@type": "SiteNavigationElement",
-              "position": 1,
-              "name": "Services",
-              "url": "https://www.drexagency.shop/services.html"
+              "@type": "Person",
+              "name": "Vikash Kumar",
+              "jobTitle": "Co-Founder (Digital & Business Operations)"
             },
             {
-              "@type": "SiteNavigationElement",
-              "position": 2,
-              "name": "Portfolio & Case Studies",
-              "url": "https://www.drexagency.shop/case-studies.html"
-            },
-            {
-              "@type": "SiteNavigationElement",
-              "position": 3,
-              "name": "Blog & Insights",
-              "url": "https://www.drexagency.shop/blog.html"
-            },
-            {
-              "@type": "SiteNavigationElement",
-              "position": 4,
-              "name": "Pricing & Packages",
-              "url": "https://www.drexagency.shop/pricing.html"
-            },
-            {
-              "@type": "SiteNavigationElement",
-              "position": 5,
-              "name": "About Us",
-              "url": "https://www.drexagency.shop/about.html"
-            },
-            {
-              "@type": "SiteNavigationElement",
-              "position": 6,
-              "name": "Contact Us",
-              "url": "https://www.drexagency.shop/contact.html"
+              "@type": "Person",
+              "name": "Ramesh Taak",
+              "jobTitle": "Co-Founder (Site Operations & Execution)"
             }
           ]
         }
       ]
     }
     </script>
-
-    <style>
-      .handwriting-font {
-        font-family: 'Caveat', cursive;
-      }
-      /* Logo Size & Styling (Adjustable via CSS) */
-      .drex-logo-header {
-        width: 32px;
-        height: 32px;
-        object-fit: contain;
-      }
-      .drex-logo-footer {
-        width: 36px;
-        height: 36px;
-        object-fit: contain;
-      }
-    </style>
   </head>
-  <body class="bg-[#030712] text-slate-100 antialiased selection:bg-blue-600 selection:text-white min-h-screen overflow-x-hidden">
+  <body>
+    <!-- Accessibility Skip Link -->
+    <a href="#mainContent" class="skip-link">Skip to main content</a>
 
-    <!-- 100% Rounded Floating Header / Hider Bar -->
-    <header class="fixed top-3 sm:top-4 inset-x-0 z-50 max-w-5xl mx-auto px-3 sm:px-6">
-      <div class="bg-[#090d16]/90 backdrop-blur-md rounded-full border border-dashed border-slate-700/80 px-4 sm:px-6 py-2.5 sm:py-3 shadow-xl shadow-black/40 flex items-center justify-between">
-        
-        <!-- Drex Agency Logo & Branding (Left) -->
-        <a href="index.html" class="flex items-center gap-2.5 text-left group">
-          <div class="relative flex items-center justify-center shrink-0">
-            <img 
-              src="logo.png" 
-              alt="Drex Agency Logo" 
-              class="drex-logo-header rounded-full shadow-md shadow-blue-600/30 group-hover:scale-105 transition-transform" 
-              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" 
-            />
-            <div class="w-8 h-8 rounded-full bg-blue-600 hidden items-center justify-center font-extrabold text-white text-base shadow-md shadow-blue-600/30 group-hover:scale-105 transition-transform">
-              D
-            </div>
-          </div>
-          <div class="flex flex-col justify-center">
-            <div class="handwriting-font font-bold text-xl sm:text-2xl leading-none tracking-wide">
-              <span class="text-blue-500">Drex</span>
-              <span class="text-white">Agency</span>
-            </div>
-            <span class="text-[9px] text-slate-400 hidden sm:block -mt-0.5 font-medium tracking-wider uppercase">
-              Ahmedabad
-            </span>
-          </div>
+    <!-- Sticky Header -->
+    <header class="site-header" role="banner">
+      <div class="container header-container">
+        <!-- Brand Wordmark & Logo -->
+        <a href="#home" class="brand-lockup" aria-label="Vikash Kumar Homepage">
+          <img
+            src="assets/logo.png"
+            alt="Elite Interior Logo"
+            id="siteLogoImg"
+            class="brand-logo-img"
+            width="34"
+            height="34"
+            onerror="this.onerror=null; this.src='/logo.svg';"
+          />
+          <span class="brand-title">Vikash Kumar</span>
         </a>
 
-        <!-- Right Side: Query Button (Desktop Only) & Extreme Right Menu Toggle -->
-        <div class="flex items-center gap-2 sm:gap-3">
-          <!-- Query Button (Only Desktop View) -->
+        <!-- Desktop Navigation: Home, Profiles, Connect, Documents, Gallery, About -->
+        <nav class="site-nav" aria-label="Main Navigation">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#profiles" class="nav-link">Profiles</a>
+          <a href="#connect" class="nav-link">Connect</a>
+          <a href="#documents" class="nav-link">Documents</a>
+          <a href="/gallery.html" class="nav-link">Gallery</a>
+          <a href="#about" class="nav-link">About</a>
+        </nav>
+
+        <!-- Header Actions: Documents Dropdown & Mobile Toggle -->
+        <div class="header-actions">
+          <div class="nav-dropdown" id="docsDropdown">
+            <button
+              type="button"
+              class="dropdown-toggle"
+              id="docsDropdownBtn"
+              aria-haspopup="true"
+              aria-expanded="false"
+              aria-label="Download Documents"
+            >
+              <span>Documents</span>
+              <svg class="dropdown-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="dropdown-menu" role="menu" aria-labelledby="docsDropdownBtn">
+              <a href="/documents/vikash-kumar-visiting-card.pdf" download="vikash-kumar-visiting-card.pdf" class="dropdown-item" role="menuitem">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="5" width="20" height="14" rx="2"></rect>
+                  <line x1="2" y1="10" x2="22" y2="10"></line>
+                </svg>
+                <span>Visiting Card</span>
+                <span class="dropdown-item-meta">PDF</span>
+              </a>
+              <a href="/documents/vikash-kumar-cv.pdf" download="vikash-kumar-cv.pdf" class="dropdown-item" role="menuitem">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                <span>CV / Resume</span>
+                <span class="dropdown-item-meta">PDF</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Mobile Hamburger Toggle (44px touch target) -->
           <button
-            onclick="openModal('General Consultation')"
-            class="hidden md:flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-semibold bg-blue-600 hover:bg-blue-500 text-white transition-all cursor-pointer shadow-md shadow-blue-600/30 hover:shadow-blue-500/50 hover:scale-105"
+            type="button"
+            class="mobile-menu-toggle"
+            id="mobileMenuToggle"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
           >
-            <i data-lucide="message-square" class="w-3.5 h-3.5"></i>
-            <span>Enquire Now</span>
-          </button>
-
-          <!-- Extreme Right Menu Button -->
-          <button
-            onclick="toggleMenu()"
-            class="p-2.5 rounded-full bg-slate-800/90 text-slate-300 hover:text-white hover:bg-slate-700 cursor-pointer border border-slate-700/60 transition-colors flex items-center justify-center shadow-sm"
-            aria-label="Toggle menu"
-          >
-            <i data-lucide="menu" id="menu-icon" class="w-4 h-4"></i>
-          </button>
-        </div>
-      </div>
-
-      <!-- Floating Vertical List Menu Dropdown -->
-      <div id="menu-dropdown" class="hidden mt-2 bg-[#090d16]/95 backdrop-blur-xl border border-dashed border-slate-700/80 rounded-2xl sm:rounded-3xl p-3 sm:p-4 shadow-2xl shadow-black/80 space-y-1.5 animate-in fade-in slide-in-from-top-2 duration-200 max-w-sm sm:max-w-md ml-auto">
-        <div class="flex flex-col space-y-1">
-          <a href="index.html" class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-blue-600/20 text-blue-400 border border-blue-500/30 transition-all">
-            <span>Home</span>
-            <span class="w-1.5 h-1.5 rounded-full bg-blue-400"></span>
-          </a>
-          <a href="services.html" class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium text-slate-300 hover:bg-slate-800/70 hover:text-white transition-all">
-            <span>Services</span>
-          </a>
-          <a href="case-studies.html" class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium text-slate-300 hover:bg-slate-800/70 hover:text-white transition-all">
-            <span>Portfolio & Case Studies</span>
-          </a>
-          <a href="blog.html" class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium text-slate-300 hover:bg-slate-800/70 hover:text-white transition-all">
-            <span>Blog & Insights</span>
-          </a>
-          <a href="pricing.html" class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium text-slate-300 hover:bg-slate-800/70 hover:text-white transition-all">
-            <span>Pricing & Packages</span>
-          </a>
-          <a href="about.html" class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium text-slate-300 hover:bg-slate-800/70 hover:text-white transition-all">
-            <span>About Us</span>
-          </a>
-          <a href="contact.html" class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium text-slate-300 hover:bg-slate-800/70 hover:text-white transition-all">
-            <span>Contact Us</span>
-          </a>
-        </div>
-
-        <div class="pt-2.5 border-t border-slate-800/80 flex items-center justify-between gap-2 px-1">
-          <a href="https://wa.me/916377155600" target="_blank" class="text-xs text-slate-400 hover:text-white flex items-center gap-1.5 transition-colors">
-            <i data-lucide="message-square" class="w-3.5 h-3.5 text-blue-400"></i>
-            <span>+91 6377155600</span>
-          </a>
-          <button onclick="openModal('WhatsApp Consultation')" class="px-4 py-2 rounded-xl text-xs font-semibold bg-blue-600 hover:bg-blue-500 text-white flex items-center gap-1.5 shadow-md shadow-blue-600/20 cursor-pointer">
-            <i data-lucide="message-square" class="w-3.5 h-3.5"></i>
-            <span>Inquire</span>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
           </button>
         </div>
       </div>
     </header>
 
-    <!-- Main Content -->
-    <main class="pt-28 sm:pt-36">
-
-      <!-- Hero Section -->
-      <section class="max-w-5xl mx-auto px-4 sm:px-6 text-center mb-16 sm:mb-20">
-        <!-- Badge -->
-        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-600/10 border border-blue-500/30 text-blue-400 text-xs font-semibold tracking-wide uppercase mb-6">
-          <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
-          <span>AHMEDABAD'S PREMIER DIGITAL GROWTH AGENCY • SOUTH BOPAL</span>
+    <!-- Mobile Drawer Overlay & Content (Mobile Thumb Optimized) -->
+    <div class="mobile-drawer-overlay" id="mobileDrawerOverlay" aria-hidden="true"></div>
+    <div class="mobile-drawer" id="mobileDrawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+      <div class="mobile-drawer-header">
+        <div class="brand-lockup">
+          <img src="/logo.jpg" alt="Logo" class="brand-logo-img" width="30" height="30" onerror="this.onerror=null; this.src='/logo.svg';" />
+          <span class="brand-title">Vikash Kumar</span>
         </div>
+        <button type="button" class="modal-close" id="mobileDrawerClose" aria-label="Close menu">✕</button>
+      </div>
 
-        <!-- Headline -->
-        <h1 class="text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white mb-6 leading-[1.15]">
-          Accelerate Your Brand with <br class="hidden sm:inline" />
-          <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-300 to-indigo-300">High-ROI Web Design & Local Marketing</span>
-        </h1>
+      <!-- Quick Action Buttons on Mobile -->
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 16px;">
+        <a href="https://wa.me/918529326036" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="font-size: 0.75rem; padding: 8px 10px;">
+          <span>WhatsApp</span>
+        </a>
+        <a href="tel:+918529326036" class="btn btn-secondary btn-sm" style="font-size: 0.75rem; padding: 8px 10px;">
+          <span>Call Directly</span>
+        </a>
+      </div>
 
-        <!-- Subheadline -->
-        <p class="text-slate-300 text-sm sm:text-lg max-w-2xl mx-auto mb-8 font-normal leading-relaxed">
-          We engineer high-converting web apps, dominate the Google Maps local search pack, and launch targeted Meta Ad campaigns for ambitious local businesses in South Bopal, Ahmedabad & Gujarat.
-        </p>
+      <nav class="mobile-nav-links">
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="#profiles" class="mobile-nav-link">Official Digital Profiles</a>
+        <a href="#connect" class="mobile-nav-link">Connect with Vikash</a>
+        <a href="#documents" class="mobile-nav-link">Visiting Card &amp; CV</a>
+        <a href="/gallery.html" class="mobile-nav-link" style="color: var(--color-accent);">Photo Gallery</a>
+        <a href="#about" class="mobile-nav-link">About Vikash Kumar</a>
+        <a href="#journey" class="mobile-nav-link">Professional Journey</a>
+        <a href="#business" class="mobile-nav-link">Elite Interior</a>
+      </nav>
 
-        <!-- Dual CTAs -->
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto mb-8">
-          <button
-            onclick="openModal('Hero Strategy Audit Request')"
-            class="w-full sm:w-auto px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm transition-all flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-blue-600/30 hover:scale-105"
-          >
-            <i data-lucide="message-square" class="w-4 h-4"></i>
-            <span>Get Free Strategy Audit</span>
-          </button>
-          <a
-            href="https://wa.me/916377155600?text=Hi%20Drex%20Agency,%20I%20want%20a%20free%20growth%20consultation!"
-            target="_blank"
-            class="w-full sm:w-auto px-6 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700/80 font-semibold text-sm transition-all flex items-center justify-center gap-2"
-          >
-            <i data-lucide="message-square" class="w-4 h-4 text-emerald-400"></i>
-            <span>WhatsApp (+91 6377155600)</span>
-          </a>
-        </div>
+      <div class="mobile-drawer-docs">
+        <div class="mobile-drawer-docs-title">Verified Documents</div>
+        <a href="/documents/vikash-kumar-visiting-card.pdf" download="vikash-kumar-visiting-card.pdf" class="mobile-doc-link">
+          <span>Visiting Card</span>
+          <span class="dropdown-item-meta">PDF ↓</span>
+        </a>
+        <a href="/documents/vikash-kumar-cv.pdf" download="vikash-kumar-cv.pdf" class="mobile-doc-link">
+          <span>CV / Resume</span>
+          <span class="dropdown-item-meta">PDF ↓</span>
+        </a>
+      </div>
+    </div>
 
-        <!-- Trusted Clients Social Proof Badge -->
-        <div class="mb-12 flex items-center justify-center">
-          <div class="inline-flex items-center justify-center bg-slate-900/90 border border-slate-800/90 rounded-full px-4 sm:px-5 py-2 sm:py-2.5 backdrop-blur-md shadow-xl shadow-black/40">
-            <!-- 6 Circular Client Avatars -->
-            <div class="flex items-center -space-x-2.5">
-              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&auto=format&fit=crop&q=80" alt="Client 1" class="w-7 h-7 sm:w-8 sm:h-8 rounded-full border-2 border-slate-900 object-cover shadow-sm" />
-              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&auto=format&fit=crop&q=80" alt="Client 2" class="w-7 h-7 sm:w-8 sm:h-8 rounded-full border-2 border-slate-900 object-cover shadow-sm" />
-              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&auto=format&fit=crop&q=80" alt="Client 3" class="w-7 h-7 sm:w-8 sm:h-8 rounded-full border-2 border-slate-900 object-cover shadow-sm" />
-              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&auto=format&fit=crop&q=80" alt="Client 4" class="w-7 h-7 sm:w-8 sm:h-8 rounded-full border-2 border-slate-900 object-cover shadow-sm" />
-              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=120&auto=format&fit=crop&q=80" alt="Client 5" class="w-7 h-7 sm:w-8 sm:h-8 rounded-full border-2 border-slate-900 object-cover shadow-sm" />
-              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=120&auto=format&fit=crop&q=80" alt="Client 6" class="w-7 h-7 sm:w-8 sm:h-8 rounded-full border-2 border-slate-900 object-cover shadow-sm" />
-            </div>
-
-            <!-- Thin Vertical Divider -->
-            <div class="h-5 sm:h-6 w-[1px] bg-slate-700/80 mx-3 sm:mx-4"></div>
-
-            <!-- Trusted Text Label -->
-            <div class="text-xs sm:text-sm font-extrabold tracking-wider text-white uppercase flex items-center gap-1.5 whitespace-nowrap">
-              <span>TRUSTED BY</span>
-              <span class="text-blue-400 font-black">350+ CLIENTS</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Value Stats Grid -->
-        <div class="pt-8 border-t border-slate-800/80 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto text-left">
-          <div class="p-3.5 rounded-xl bg-slate-900/50 border border-slate-800 flex items-center gap-2.5 text-slate-300 text-xs">
-            <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400 shrink-0"></i>
-            <span><strong>99.4%</strong> Client Retention</span>
-          </div>
-          <div class="p-3.5 rounded-xl bg-slate-900/50 border border-slate-800 flex items-center gap-2.5 text-slate-300 text-xs">
-            <i data-lucide="zap" class="w-4 h-4 text-amber-400 shrink-0"></i>
-            <span><strong>3.8x Avg</strong> Lead Lift</span>
-          </div>
-          <div class="p-3.5 rounded-xl bg-slate-900/50 border border-slate-800 flex items-center gap-2.5 text-slate-300 text-xs">
-            <i data-lucide="clock" class="w-4 h-4 text-cyan-400 shrink-0"></i>
-            <span><strong>48hr</strong> MVP Launch</span>
-          </div>
-          <div class="p-3.5 rounded-xl bg-slate-900/50 border border-slate-800 flex items-center gap-2.5 text-slate-300 text-xs">
-            <i data-lucide="shield-check" class="w-4 h-4 text-blue-400 shrink-0"></i>
-            <span><strong>100%</strong> Custom Engineered</span>
-          </div>
-        </div>
-      </section>
-
-      <!-- Services Section -->
-      <section id="services" class="py-16 max-w-6xl mx-auto px-4 sm:px-6">
-        <div class="text-center max-w-2xl mx-auto mb-12">
-          <span class="text-xs font-semibold text-blue-400 uppercase tracking-wider block mb-2">Core Expertise</span>
-          <h2 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">Growth Solutions Engineered for ROI</h2>
-          <p class="text-slate-400 text-xs sm:text-sm mt-2">Tailored web development, local search dominance, and high-converting ad engines.</p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <!-- Service 1 -->
-          <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 hover:border-blue-500/50 transition-all flex flex-col justify-between group">
-            <div>
-              <div class="w-10 h-10 rounded-xl bg-blue-600/10 border border-blue-500/30 flex items-center justify-center text-blue-400 mb-4 group-hover:scale-110 transition-transform">
-                <i data-lucide="code-2" class="w-5 h-5"></i>
+    <!-- Main Content Area -->
+    <main id="mainContent">
+      <!-- ====================================================================
+           SECTION 1: HERO — VIKASH KUMAR (Top Priority)
+           ==================================================================== -->
+      <section class="hero-section" id="home" aria-labelledby="heroHeading">
+        <div class="container">
+          <div class="hero-grid">
+            <!-- Left Column: Identity & Introduction -->
+            <div class="hero-content">
+              <div class="hero-eyebrow">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <span>Personal Profile</span>
               </div>
-              <h3 class="text-lg font-bold text-white mb-2">Web Development & Web Apps</h3>
-              <p class="text-slate-400 text-xs leading-relaxed mb-4">
-                Ultra-fast, mobile-responsive websites built with modern React and Tailwind. Engineered for instant loading, crisp typography, and maximum lead capture.
-              </p>
-              <ul class="space-y-2 mb-6 text-xs text-slate-300">
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-blue-400"></i> Sub-second loading speed</li>
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-blue-400"></i> Custom WhatsApp integration</li>
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-blue-400"></i> SEO & mobile responsive</li>
-              </ul>
-            </div>
-            <button onclick="openModal('Web Development Inquiry')" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-blue-600 hover:text-white text-slate-200 text-xs font-semibold transition-colors flex items-center justify-center gap-2">
-              <span>Inquire Web Dev</span>
-              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
-            </button>
-          </div>
 
-          <!-- Service 2 -->
-          <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 hover:border-blue-500/50 transition-all flex flex-col justify-between group">
-            <div>
-              <div class="w-10 h-10 rounded-xl bg-blue-600/10 border border-blue-500/30 flex items-center justify-center text-blue-400 mb-4 group-hover:scale-110 transition-transform">
-                <i data-lucide="map-pin" class="w-5 h-5"></i>
+              <h1 class="hero-title" id="heroHeading">Vikash Kumar</h1>
+              <span class="title-accent-line"></span>
+
+              <div class="hero-designation-badge">
+                <span>Co-Founder, Elite Interior</span>
               </div>
-              <h3 class="text-lg font-bold text-white mb-2">Google Maps Local SEO</h3>
-              <p class="text-slate-400 text-xs leading-relaxed mb-4">
-                Dominate the Google 3-Pack in Ahmedabad. Drive local calls, clinic appointments, and store visits directly from high-intent Google searches.
-              </p>
-              <ul class="space-y-2 mb-6 text-xs text-slate-300">
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-blue-400"></i> GMB 3-Pack ranking strategy</li>
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-blue-400"></i> Local schema & citation setup</li>
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-blue-400"></i> Automated review management</li>
-              </ul>
-            </div>
-            <button onclick="openModal('Local SEO Inquiry')" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-blue-600 hover:text-white text-slate-200 text-xs font-semibold transition-colors flex items-center justify-center gap-2">
-              <span>Inquire Local SEO</span>
-              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
-            </button>
-          </div>
 
-          <!-- Service 3 -->
-          <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 hover:border-blue-500/50 transition-all flex flex-col justify-between group">
-            <div>
-              <div class="w-10 h-10 rounded-xl bg-blue-600/10 border border-blue-500/30 flex items-center justify-center text-blue-400 mb-4 group-hover:scale-110 transition-transform">
-                <i data-lucide="target" class="w-5 h-5"></i>
+              <p class="hero-description">
+                Vikash Kumar directs digital strategy, tech infrastructure, and business operations at Elite Interior, an established interior design and turnkey execution company based in Ahmedabad, Gujarat. Explore his professional journey, business association, and official digital channels.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#connect" class="btn btn-primary">
+                  <span>Connect with Me</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+                <a href="#about" class="btn btn-secondary">
+                  <span>Explore My Profile</span>
+                </a>
               </div>
-              <h3 class="text-lg font-bold text-white mb-2">Meta & Instagram Ads</h3>
-              <p class="text-slate-400 text-xs leading-relaxed mb-4">
-                Hyper-targeted Facebook & Instagram campaigns engineered for real estate, interior designers, and local service providers in Gujarat.
-              </p>
-              <ul class="space-y-2 mb-6 text-xs text-slate-300">
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-blue-400"></i> High-intent lead forms</li>
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-blue-400"></i> Ad creative & copywriting</li>
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-blue-400"></i> Conversion tracking & ROAS</li>
-              </ul>
-            </div>
-            <button onclick="openModal('Meta Ads Inquiry')" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-blue-600 hover:text-white text-slate-200 text-xs font-semibold transition-colors flex items-center justify-center gap-2">
-              <span>Inquire Meta Ads</span>
-              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
-            </button>
-          </div>
-        </div>
-      </section>
 
-      <!-- Case Studies Teaser Section -->
-      <section class="py-16 max-w-6xl mx-auto px-4 sm:px-6">
-        <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 sm:p-10">
-          <div class="flex flex-col md:flex-row items-start md:items-center justify-between mb-8 gap-4">
-            <div>
-              <span class="text-xs font-semibold text-blue-400 uppercase tracking-wider block mb-1">Proven ROI Results</span>
-              <h2 class="text-2xl sm:text-3xl font-extrabold text-white">Client Success Stories in Ahmedabad</h2>
+              <!-- Refined Animated Handwritten Signature (Blue & White Theme) -->
+              <div class="signature-box" aria-label="Handwritten digital signature of Vikash Kumar">
+                <div class="signature-label">Digital Signature</div>
+                <div class="signature-container">
+                  <svg class="signature-svg" viewBox="0 0 340 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      class="sig-stroke"
+                      d="M 18 32 C 22 18, 30 16, 36 22 C 40 28, 42 48, 48 60 C 52 44, 58 28, 64 22 C 68 18, 72 20, 74 26 L 74 52 M 75 14 A 1 1 0 0 1 77 14 M 76 52 C 78 44, 82 24, 86 14 C 88 10, 92 12, 90 20 L 88 52 M 86 34 C 92 28, 98 30, 98 36 C 98 42, 90 44, 96 52 M 100 50 C 104 36, 112 36, 114 44 L 114 52 M 116 52 C 120 40, 126 36, 128 42 C 128 48, 122 50, 132 52 M 134 52 C 138 34, 144 18, 148 12 C 150 10, 154 12, 152 24 L 148 52 M 146 38 C 152 32, 160 32, 160 42 L 158 52 M 180 18 L 176 54 M 198 22 C 190 28, 184 38, 178 42 M 180 40 C 186 44, 196 52, 204 54 M 206 54 C 210 42, 216 42, 214 52 M 216 52 C 220 42, 226 42, 224 52 M 226 52 C 230 40, 236 40, 234 52 C 236 40, 242 40, 240 52 M 242 50 C 246 38, 252 38, 252 44 L 250 52 M 252 52 C 256 42, 260 40, 264 44 L 262 52"
+                    />
+                    <!-- Royal Blue Underline Flourish -->
+                    <path
+                      class="sig-flourish"
+                      d="M 32 68 C 100 66, 210 66, 280 58 C 295 56, 305 60, 292 64 C 270 71, 210 72, 140 73"
+                    />
+                  </svg>
+                </div>
+              </div>
             </div>
-            <a href="case-studies.html" class="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs flex items-center gap-2 transition-colors">
-              <span>View All Case Studies</span>
-              <i data-lucide="arrow-right" class="w-4 h-4"></i>
-            </a>
-          </div>
 
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div class="bg-slate-950/80 border border-slate-800 rounded-xl p-5">
-              <div class="text-blue-400 font-black text-2xl mb-1">+240%</div>
-              <div class="text-xs font-bold text-white mb-2">Shree Interior Studio (Ahmedabad)</div>
-              <p class="text-slate-400 text-xs">Generated 18 luxury villa interior design bookings in 60 days via custom portfolio web app & Meta Ads.</p>
-            </div>
-            <div class="bg-slate-950/80 border border-slate-800 rounded-xl p-5">
-              <div class="text-blue-400 font-black text-2xl mb-1">+380%</div>
-              <div class="text-xs font-bold text-white mb-2">Elevate Commercial Real Estate</div>
-              <p class="text-slate-400 text-xs">Increased high-ticket commercial office space inquiries by 3.8x with high-speed React landing page.</p>
-            </div>
-            <div class="bg-slate-950/80 border border-slate-800 rounded-xl p-5">
-              <div class="text-blue-400 font-black text-2xl mb-1">+450%</div>
-              <div class="text-xs font-bold text-white mb-2">Aura Dental Clinic (Bodakdev)</div>
-              <p class="text-slate-400 text-xs">Ranked #1 on Google Maps for 18 local dental keywords, adding 65+ new monthly patient walk-ins.</p>
+            <!-- Right Column: Profile Photograph Frame -->
+            <div class="hero-visual">
+              <div class="portrait-frame">
+                <img
+                  id="heroPortraitImage"
+                  src="assets/Vikashkumar.jpeg"
+                  alt="Vikash Kumar — Co-Founder of Elite Interior, Ahmedabad"
+                  class="portrait-image"
+                  width="400"
+                  height="500"
+                  fetchpriority="high"
+                  loading="eager"
+                  onerror="this.onerror=null; this.src='/vikashkumar.jpg';"
+                />
+
+                <div class="portrait-badge">
+                  <span class="portrait-badge-text">Vikash Kumar · Elite Interior</span>
+                  <span class="portrait-badge-tag">Verified</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Founder / Owner Section -->
-      <section id="founder" class="py-16 max-w-5xl mx-auto px-4 sm:px-6">
-        <div class="bg-gradient-to-br from-slate-900/90 via-slate-900/60 to-slate-950 border border-slate-800 rounded-3xl p-6 sm:p-10 flex flex-col md:flex-row items-center gap-8 shadow-2xl">
-          <div class="relative shrink-0">
-            <img
-              src="https://www.drexagency.shop/Vikash%20Kumar%20Profile%20photo.jpeg"
-              alt="Vikash Kumar - Founder & Head of Strategy"
-              class="w-36 h-36 sm:w-44 sm:h-44 rounded-2xl object-cover border-2 border-blue-500/40 shadow-xl"
-              onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500';"
-            />
-            <div class="absolute -bottom-2 -right-2 bg-blue-600 text-white px-2.5 py-1 rounded-xl text-[10px] font-extrabold shadow-lg uppercase tracking-wider">
-              Founder & Strategist
-            </div>
-          </div>
-
-          <div class="space-y-3 text-center md:text-left">
-            <span class="text-xs font-semibold text-blue-400 uppercase tracking-wider block">Leadership & Vision</span>
-            <h2 class="text-2xl sm:text-3xl font-extrabold text-white">Vikash Kumar</h2>
-            <p class="text-xs text-blue-300 font-medium">Founder & Head of Strategy, Drex Agency Ahmedabad</p>
-            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed max-w-xl">
-              "We don't build generic brochure websites or run superficial ad campaigns. We build precision-engineered growth engines designed to deliver measurable ROI for Gujarat's most ambitious business owners."
+      <!-- ====================================================================
+           SECTION 2: OFFICIAL DIGITAL PROFILES (Directly below Hero)
+           ==================================================================== -->
+      <section class="profiles-section" id="profiles" aria-labelledby="profilesHeading">
+        <div class="container">
+          <div class="section-header" style="margin-bottom: 1.25rem;">
+            <div class="section-eyebrow">Verified Channels</div>
+            <h2 class="section-title" id="profilesHeading" style="font-size: 1.5rem;">Official Digital Profiles</h2>
+            <p class="section-subtitle">
+              Connect with Vikash Kumar through his verified professional and personal social profiles.
             </p>
-            <div class="pt-2 flex flex-wrap items-center justify-center md:justify-start gap-3">
-              <a
-                href="https://wa.me/916377155600?text=Hi%20Vikash,%20I%20want%20to%20discuss%20a%20project%20for%20my%20business!"
-                target="_blank"
-                class="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs flex items-center gap-2 transition-colors shadow-md shadow-blue-600/20"
-              >
-                <i data-lucide="message-square" class="w-3.5 h-3.5"></i>
-                <span>Direct WhatsApp Chat</span>
-              </a>
-              <a
-                href="tel:+918529326036"
-                class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700/80 font-semibold text-xs flex items-center gap-2 transition-colors"
-              >
-                <i data-lucide="phone-call" class="w-3.5 h-3.5 text-red-400"></i>
-                <span>Emergency Support (+91 8529326036)</span>
-              </a>
+          </div>
+
+          <div class="profiles-grid">
+            <!-- LinkedIn -->
+            <a
+              href="https://in.linkedin.com/in/vikash-kumar-045934331"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="profile-card"
+              aria-label="Vikash Kumar on LinkedIn"
+            >
+              <div class="profile-card-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </div>
+              <div class="profile-card-info">
+                <div class="profile-card-name">LinkedIn</div>
+                <div class="profile-card-handle">in/vikash-kumar-045934331</div>
+              </div>
+            </a>
+
+            <!-- Instagram -->
+            <a
+              href="https://www.instagram.com/vikiiiii.04"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="profile-card"
+              aria-label="Vikash Kumar on Instagram"
+            >
+              <div class="profile-card-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </div>
+              <div class="profile-card-info">
+                <div class="profile-card-name">Instagram</div>
+                <div class="profile-card-handle">@vikiiiii.04</div>
+              </div>
+            </a>
+
+            <!-- Facebook -->
+            <a
+              href="https://www.facebook.com/share/1BFR5w2GRw"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="profile-card"
+              aria-label="Vikash Kumar on Facebook"
+            >
+              <div class="profile-card-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
+              </div>
+              <div class="profile-card-info">
+                <div class="profile-card-name">Facebook</div>
+                <div class="profile-card-handle">Vikash Kumar Official</div>
+              </div>
+            </a>
+
+            <!-- YouTube -->
+            <a
+              href="https://youtube.com/@vikly0"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="profile-card"
+              aria-label="Vikash Kumar on YouTube"
+            >
+              <div class="profile-card-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                  <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                </svg>
+              </div>
+              <div class="profile-card-info">
+                <div class="profile-card-name">YouTube</div>
+                <div class="profile-card-handle">@vikly0</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           SECTION 3: CONNECT WITH VIKASH (Directly after Profiles)
+           ==================================================================== -->
+      <section class="connect-priority-section" id="connect" aria-labelledby="connectPriorityHeading">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-eyebrow">Direct Contact</div>
+            <h2 class="section-title" id="connectPriorityHeading">Connect with Vikash</h2>
+            <p class="section-subtitle">
+              Reach out directly for turnkey residential interior projects, business collaborations, or digital operations.
+            </p>
+          </div>
+
+          <div class="connect-priority-grid">
+            <!-- Call Directly -->
+            <a href="tel:+918529326036" class="direct-contact-card" aria-label="Call Vikash Kumar directly">
+              <div class="direct-contact-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="direct-contact-meta">
+                <div class="direct-contact-label">Direct Phone</div>
+                <div class="direct-contact-val">+91 8529326036</div>
+              </div>
+            </a>
+
+            <!-- WhatsApp Chat -->
+            <a
+              href="https://wa.me/918529326036"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="direct-contact-card"
+              aria-label="Message Vikash Kumar on WhatsApp"
+            >
+              <div class="direct-contact-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+              </div>
+              <div class="direct-contact-meta">
+                <div class="direct-contact-label">WhatsApp</div>
+                <div class="direct-contact-val">+91 8529326036</div>
+              </div>
+            </a>
+
+            <!-- Business Website -->
+            <a
+              href="https://eliteinterior.pro/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="direct-contact-card"
+              aria-label="Visit Elite Interior website"
+            >
+              <div class="direct-contact-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+              <div class="direct-contact-meta">
+                <div class="direct-contact-label">Business Website</div>
+                <div class="direct-contact-val">eliteinterior.pro ↗</div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Secondary Quick Contact Strip on Mobile -->
+          <div style="margin-top: 1.25rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; background: #FFFFFF; border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: 14px 18px;">
+            <div style="font-size: 0.8125rem; color: var(--color-text-secondary); line-height: 1.5;">
+              <strong>Office:</strong> A-212a, Sun South Trade, South Bopal, Ahmedabad 380058
+            </div>
+            <button type="button" class="btn btn-secondary btn-sm" id="copyDetailsBtn" style="width: 100%; justify-content: center;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span>Copy Contact Details</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           SECTION 4: VISITING CARD & CV DOWNLOADS (Directly after Connect)
+           ==================================================================== -->
+      <section class="docs-priority-section" id="documents" aria-labelledby="docsPriorityHeading">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-eyebrow">Official Credentials</div>
+            <h2 class="section-title" id="docsPriorityHeading">Visiting Card &amp; CV Downloads</h2>
+            <p class="section-subtitle">
+              Download verified PDF documents or save Vikash Kumar's vCard directly to your mobile address book.
+            </p>
+          </div>
+
+          <div class="docs-priority-grid">
+            <!-- Visiting Card -->
+            <div class="doc-box">
+              <div class="doc-box-header">
+                <div class="doc-box-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="5" width="20" height="14" rx="2"></rect>
+                    <line x1="2" y1="10" x2="22" y2="10"></line>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="doc-box-title">Digital Visiting Card</h3>
+                  <p class="doc-box-desc">
+                    Executive business card with verified phone, business address, and web credentials.
+                  </p>
+                </div>
+              </div>
+
+              <div class="doc-box-actions">
+                <a
+                  href="/documents/vikash-kumar-visiting-card.pdf"
+                  download="vikash-kumar-visiting-card.pdf"
+                  class="btn btn-primary btn-sm"
+                  style="flex: 1;"
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  <span>Download Visiting Card (PDF)</span>
+                </a>
+                <button type="button" class="btn btn-secondary btn-sm" id="previewCardBtn">
+                  <span>Preview Card</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- CV / Resume -->
+            <div class="doc-box">
+              <div class="doc-box-header">
+                <div class="doc-box-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                    <polyline points="10 9 9 9 8 9"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="doc-box-title">Curriculum Vitae / Resume</h3>
+                  <p class="doc-box-desc">
+                    Comprehensive professional CV covering marketing background, skills, and operations leadership.
+                  </p>
+                </div>
+              </div>
+
+              <div class="doc-box-actions">
+                <a
+                  href="/documents/vikash-kumar-cv.pdf"
+                  download="vikash-kumar-cv.pdf"
+                  class="btn btn-primary btn-sm"
+                  style="width: 100%;"
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  <span>Download CV / Resume (PDF)</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Blog Teaser Section -->
-      <section class="py-16 max-w-6xl mx-auto px-4 sm:px-6">
-        <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 sm:p-10">
-          <div class="flex flex-col md:flex-row items-start md:items-center justify-between mb-8 gap-4">
+      <!-- ====================================================================
+           SECTION 5: PHOTO GALLERY PREVIEW (Homepage Feature)
+           ==================================================================== -->
+      <section class="gallery-section" id="gallery-preview" aria-labelledby="galleryPreviewHeading">
+        <div class="container">
+          <div class="section-header" style="display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 14px;">
             <div>
-              <span class="text-xs font-semibold text-cyan-400 uppercase tracking-wider block mb-1">Articles & Insights</span>
-              <h2 class="text-2xl sm:text-3xl font-extrabold text-white">Growth Guides & Strategy Articles</h2>
+              <div class="section-eyebrow">Visual Highlights</div>
+              <h2 class="section-title" id="galleryPreviewHeading">Photo Gallery</h2>
+              <p class="section-subtitle">
+                Explore photographs and visual media highlighting Vikash Kumar's professional profile and interior projects.
+              </p>
             </div>
-            <a href="blog.html" class="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs flex items-center gap-2 transition-colors">
-              <i data-lucide="book-open" class="w-4 h-4"></i>
-              <span>Explore All Articles</span>
-            </a>
+            <div>
+              <a href="/gallery.html" class="btn btn-primary">
+                <span>View All Photos</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
           </div>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <a href="blog.html" class="bg-slate-950/80 border border-slate-800 rounded-xl p-5 hover:border-cyan-500/40 transition-colors block group">
-              <div class="flex items-center justify-between mb-2">
-                <span class="text-[10px] font-semibold text-cyan-400 bg-cyan-500/10 px-2 py-0.5 rounded border border-cyan-500/20">Local SEO</span>
-                <span class="text-[10px] text-slate-500 font-medium">5 min read</span>
+          <!-- Compact 3-image homepage preview -->
+          <div class="gallery-preview-grid">
+            <article class="gallery-card" data-index="0" data-id="photo-01">
+              <div class="gallery-card-thumb">
+                <img
+                  src="/assets/gallery/1.jpg"
+                  alt="ahmedabad"
+                  class="gallery-card-img"
+                  loading="lazy"
+                  width="400"
+                  height="300"
+                  onerror="this.onerror=null; this.src='/assets/gallery/1.jpg';"
+                />
+                <span class="gallery-card-badge">Business</span>
               </div>
-              <h3 class="text-sm font-bold text-white mb-2 group-hover:text-cyan-300 transition-colors">How Local Businesses in Ahmedabad Can Rank #1 on Google Maps in 2026</h3>
-              <p class="text-xs text-slate-400 line-clamp-2">A step-by-step audit guide to optimizing GMB profiles, schema citations, and local customer reviews.</p>
-            </a>
+              <div class="gallery-card-body">
+                <h3 class="gallery-card-title">Vikash Kumar — Profile Portrait</h3>
+                <span class="gallery-card-category">Co-Founder · Elite Interior</span>
+              </div>
+            </article>
 
-            <a href="blog.html" class="bg-slate-950/80 border border-slate-800 rounded-xl p-5 hover:border-cyan-500/40 transition-colors block group">
-              <div class="flex items-center justify-between mb-2">
-                <span class="text-[10px] font-semibold text-cyan-400 bg-cyan-500/10 px-2 py-0.5 rounded border border-cyan-500/20">Web Development</span>
-                <span class="text-[10px] text-slate-500 font-medium">4 min read</span>
+            <article class="gallery-card" data-index="1" data-id="photo-02">
+              <div class="gallery-card-thumb">
+                <img
+                  src="/assets/gallery/2.jpg"
+                  alt="Elite Interior turnkey projects"
+                  class="gallery-card-img"
+                  loading="lazy"
+                  width="400"
+                  height="300"
+                  onerror="this.onerror=null; this.src='/assets/gallery/2.jpg';"
+                />
+                <span class="gallery-card-badge">Cafe</span>
               </div>
-              <h3 class="text-sm font-bold text-white mb-2 group-hover:text-cyan-300 transition-colors">Why 90% of Local Websites Fail to Convert Visitors into Paying Leads</h3>
-              <p class="text-xs text-slate-400 line-clamp-2">How sub-second loading speed, clear CTA hierarchy, and instant WhatsApp booking double conversion rates.</p>
-            </a>
+              <div class="gallery-card-body">
+                <h3 class="gallery-card-title">Elite Interior</h3>
+                <span class="gallery-card-category">Vikash & Ramesh</span>
+              </div>
+            </article>
+
+            <article class="gallery-card" data-index="2" data-id="photo-03">
+              <div class="gallery-card-thumb">
+                <img
+                  src="/assets/gallery/3.jpg"
+                  alt="Elite Interior office at Sun South Trade"
+                  class="gallery-card-img"
+                  loading="lazy"
+                  width="400"
+                  height="300"
+                  onerror="this.onerror=null; this.src='/assets/gallery/3.jpg';"
+                />
+                <span class="gallery-card-badge">Public place</span>
+              </div>
+              <div class="gallery-card-body">
+                <h3 class="gallery-card-title">With friends</h3>
+                <span class="gallery-card-category">South Bopal · Ahmedabad</span>
+              </div>
+            </article>
           </div>
         </div>
       </section>
 
-      <!-- Contact Section -->
-      <section id="contact" class="py-16 max-w-5xl mx-auto px-4 sm:px-6">
-        <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-10">
-          <div class="text-center max-w-xl mx-auto mb-10">
-            <span class="text-xs font-semibold text-blue-400 uppercase tracking-wider block mb-2">Get In Touch</span>
-            <h2 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">Ready to Scale Your Business?</h2>
-            <p class="text-slate-400 text-xs sm:text-sm mt-2">Send us a message or schedule a direct consultation with our lead team in South Bopal, Ahmedabad.</p>
+      <!-- ====================================================================
+           REMAINING SECTIONS (Blue & White Theme)
+           ==================================================================== -->
+
+      <!-- ABOUT VIKASH KUMAR & BIOGRAPHY -->
+      <section class="about-section" id="about" aria-labelledby="aboutHeading">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-eyebrow">Professional Biography</div>
+            <h2 class="section-title" id="aboutHeading">About Vikash Kumar</h2>
+            <p class="section-subtitle">
+              Bridging technology, structured client management, and turnkey interior execution.
+            </p>
           </div>
 
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
-            <!-- Contact Info -->
-            <div class="space-y-6 bg-slate-950/60 border border-slate-800 p-6 rounded-2xl">
-              <div>
-                <h3 class="text-base font-bold text-white mb-4">Drex Agency Headquarters</h3>
-                <div class="space-y-4 text-xs text-slate-300">
-                  <div class="flex items-start gap-3">
-                    <i data-lucide="map-pin" class="w-4 h-4 text-blue-400 shrink-0 mt-0.5"></i>
-                    <span>South Bopal, Ahmedabad, Gujarat, India</span>
+          <div class="about-grid">
+            <div class="about-card-primary">
+              <div class="summary-lead">
+                Vikash Kumar is the Co-Founder of Elite Interior, an established interior design and turnkey execution firm headquartered in Ahmedabad, Gujarat. He directs the firm's digital strategy, web systems, client communication infrastructure, and operational growth.
+              </div>
+
+              <div class="bio-paragraphs">
+                <p class="bio-paragraph">
+                  Originally hailing from <strong>Bamarla, Serwa (Sedwa), in the Barmer district of Rajasthan</strong>, Vikash began his professional journey with a strong inclination toward business operations, technology, and organizational systems.
+                </p>
+                <p class="bio-paragraph">
+                  Prior to establishing Elite Interior, Vikash served as <strong>Marketing Manager at Ramdev Interior Pvt. Ltd.</strong>, where he acquired valuable on-ground exposure to client acquisition, market coordination, vendor dynamics, and the complexities of the interior execution industry in Gujarat.
+                </p>
+                <p class="bio-paragraph">
+                  Recognizing the opportunity to bring greater transparency, modern project tracking, and digital efficiency to interior solutions, he co-founded <strong>Elite Interior</strong> alongside <strong>Ramesh Taak</strong>. While Ramesh leads the physical on-ground site execution and technical craftsmanship with over 12 years of hands-on experience, Vikash leads the technology, digital marketing, client onboarding pipelines, and operational architecture.
+                </p>
+                <p class="bio-paragraph">
+                  Under their shared leadership, Elite Interior delivers full home interiors, modular kitchens, and custom residential spaces across Ahmedabad from their office at Sun South Trade, South Bopal.
+                </p>
+              </div>
+            </div>
+
+            <!-- Competencies Column -->
+            <div class="about-side-column">
+              <div class="competencies-card">
+                <h3 class="card-title">Core Competencies &amp; Focus Areas</h3>
+                <div class="competencies-list">
+                  <div class="competency-item">
+                    <div class="competency-icon" aria-hidden="true">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                        <line x1="8" y1="21" x2="16" y2="21"></line>
+                        <line x1="12" y1="17" x2="12" y2="21"></line>
+                      </svg>
+                    </div>
+                    <div class="competency-content">
+                      <h4>Digital Strategy &amp; Web Systems</h4>
+                      <p>Architecting digital client touchpoints, web platforms, and automated workflow tracking for interior projects.</p>
+                    </div>
                   </div>
-                  <div class="flex items-center gap-3">
-                    <i data-lucide="message-square" class="w-4 h-4 text-emerald-400 shrink-0"></i>
-                    <a href="https://wa.me/916377155600" target="_blank" class="hover:text-white font-semibold transition-colors">WhatsApp: +91 6377155600</a>
+
+                  <div class="competency-item">
+                    <div class="competency-icon" aria-hidden="true">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                      </svg>
+                    </div>
+                    <div class="competency-content">
+                      <h4>Client Onboarding &amp; Communications</h4>
+                      <p>Ensuring transparent communication channels, structured project scheduling, and responsive client updates.</p>
+                    </div>
                   </div>
-                  <div class="flex items-center gap-3">
-                    <i data-lucide="phone-call" class="w-4 h-4 text-red-400 shrink-0"></i>
-                    <a href="tel:+918529326036" class="hover:text-white font-semibold transition-colors">Emergency Support: +91 8529326036</a>
+
+                  <div class="competency-item">
+                    <div class="competency-icon" aria-hidden="true">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                      </svg>
+                    </div>
+                    <div class="competency-content">
+                      <h4>Business Development &amp; Brand Growth</h4>
+                      <p>Overseeing marketing campaigns, social media strategy, data management, and strategic market expansion.</p>
+                    </div>
                   </div>
-                  <div class="flex items-center gap-3">
-                    <i data-lucide="mail" class="w-4 h-4 text-blue-400 shrink-0"></i>
-                    <a href="mailto:drexagency36@gmail.com" class="hover:text-white transition-colors">drexagency36@gmail.com</a>
+
+                  <div class="competency-item">
+                    <div class="competency-icon" aria-hidden="true">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                        <polyline points="2 17 12 22 22 17"></polyline>
+                        <polyline points="2 12 12 17 22 12"></polyline>
+                      </svg>
+                    </div>
+                    <div class="competency-content">
+                      <h4>Turnkey Interior Operations</h4>
+                      <p>Deep familiarity with residential modular spaces, material specifications, and site coordination.</p>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              <div class="pt-4 border-t border-slate-800">
-                <a
-                  href="https://wa.me/916377155600?text=Hi%20Drex%20Agency,%20I%20would%20like%20to%20book%20a%20free%20audit!"
-                  target="_blank"
-                  class="w-full py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs transition-colors flex items-center justify-center gap-2 shadow-lg shadow-emerald-600/20"
-                >
-                  <i data-lucide="message-square" class="w-4 h-4"></i>
-                  <span>Instant WhatsApp Direct Chat</span>
-                </a>
+              <!-- Provenance Card -->
+              <div class="provenance-card">
+                <div class="provenance-grid">
+                  <div class="provenance-box">
+                    <div class="provenance-box-label">Base Location</div>
+                    <div class="provenance-box-val">Ahmedabad, Gujarat</div>
+                  </div>
+                  <div class="provenance-box">
+                    <div class="provenance-box-label">Native Roots</div>
+                    <div class="provenance-box-val">Barmer, Rajasthan</div>
+                  </div>
+                  <div class="provenance-box">
+                    <div class="provenance-box-label">Firm Established</div>
+                    <div class="provenance-box-val">2014</div>
+                  </div>
+                  <div class="provenance-box">
+                    <div class="provenance-box-label">Designation</div>
+                    <div class="provenance-box-val">Co-Founder</div>
+                  </div>
+                </div>
               </div>
             </div>
-
-            <!-- Direct Contact Form -->
-            <form onsubmit="handleFormSubmit(event)" class="space-y-4 bg-slate-950/60 border border-slate-800 p-6 rounded-2xl">
-              <div>
-                <label class="block text-xs font-semibold text-slate-300 mb-1">Your Full Name</label>
-                <input type="text" id="form-name" required placeholder="e.g. Rajesh Shah" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-blue-500" />
-              </div>
-              <div>
-                <label class="block text-xs font-semibold text-slate-300 mb-1">Phone / WhatsApp Number</label>
-                <input type="tel" id="form-phone" required placeholder="e.g. +91 63771 55600" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-blue-500" />
-              </div>
-              <div>
-                <label class="block text-xs font-semibold text-slate-300 mb-1">Service Required</label>
-                <select id="form-service" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-blue-500">
-                  <option value="Web Development">Web Development & React App</option>
-                  <option value="Local Google Maps SEO">Local Google Maps SEO</option>
-                  <option value="Meta & Instagram Ads">Meta & Instagram Ads</option>
-                  <option value="Full Digital Growth Package">Full Growth Package</option>
-                </select>
-              </div>
-              <div>
-                <label class="block text-xs font-semibold text-slate-300 mb-1">Project Details / Requirements</label>
-                <textarea id="form-message" rows="3" placeholder="Tell us briefly about your business goals..." class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-blue-500"></textarea>
-              </div>
-              <button type="submit" class="w-full py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs transition-colors flex items-center justify-center gap-2 shadow-lg shadow-blue-600/30 cursor-pointer">
-                <span>Submit WhatsApp Inquiry</span>
-                <i data-lucide="arrow-right" class="w-4 h-4"></i>
-              </button>
-            </form>
           </div>
         </div>
       </section>
 
+      <!-- PROFESSIONAL JOURNEY & CAREER TIMELINE -->
+      <section class="timeline-section" id="journey" aria-labelledby="journeyHeading">
+        <div class="container">
+          <div class="section-header text-center">
+            <div class="section-eyebrow">Milestones &amp; Experience</div>
+            <h2 class="section-title" id="journeyHeading">My Professional Journey</h2>
+            <p class="section-subtitle">
+              A chronological perspective on entrepreneurial milestones, marketing leadership, and industry development.
+            </p>
+          </div>
+
+          <div class="timeline-wrapper">
+            <div class="timeline-items">
+              <!-- Elite Interior -->
+              <article class="timeline-entry">
+                <div class="timeline-marker" aria-hidden="true">
+                  <div class="timeline-marker-inner"></div>
+                </div>
+                <div class="timeline-card">
+                  <div class="timeline-meta">
+                    <span class="timeline-period">2014 – Present</span>
+                    <span class="timeline-org">Elite Interior · Ahmedabad, Gujarat</span>
+                  </div>
+                  <h3 class="timeline-role">Co-Founder &amp; Head of Digital Operations</h3>
+                  <p class="timeline-desc">
+                    Co-founded Elite Interior with Ramesh Taak. Directs business strategy, technology adoption, digital communication channels, client onboarding, and digital marketing. Oversees process workflows that ensure transparent execution for residential interiors across Ahmedabad.
+                  </p>
+                </div>
+              </article>
+
+              <!-- Ramdev Interior -->
+              <article class="timeline-entry">
+                <div class="timeline-marker" aria-hidden="true">
+                  <div class="timeline-marker-inner"></div>
+                </div>
+                <div class="timeline-card">
+                  <div class="timeline-meta">
+                    <span class="timeline-period">Formative Career</span>
+                    <span class="timeline-org">Ramdev Interior Pvt. Ltd. · Gujarat</span>
+                  </div>
+                  <h3 class="timeline-role">Marketing Manager</h3>
+                  <p class="timeline-desc">
+                    Managed client outreach, marketing initiatives, and day-to-day operations in the interior contracting industry. Gained vital domain experience in client preferences, material sourcing, vendor coordination, and practical industry challenges.
+                  </p>
+                </div>
+              </article>
+
+              <!-- Roots in Barmer -->
+              <article class="timeline-entry">
+                <div class="timeline-marker" aria-hidden="true">
+                  <div class="timeline-marker-inner"></div>
+                </div>
+                <div class="timeline-card">
+                  <div class="timeline-meta">
+                    <span class="timeline-period">Foundational Roots</span>
+                    <span class="timeline-org">Barmer, Rajasthan</span>
+                  </div>
+                  <h3 class="timeline-role">Early Background &amp; Education</h3>
+                  <p class="timeline-desc">
+                    Grew up in Bamarla, Serwa (Sedwa), Barmer, developing strong discipline, resilience, and business acumen before moving to Gujarat to pursue entrepreneurial ambitions in marketing and interior design.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ELITE INTERIOR BUSINESS SECTION -->
+      <section class="business-section" id="business" aria-labelledby="businessHeading">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-eyebrow">Associated Business</div>
+            <h2 class="section-title" id="businessHeading">Business &amp; Professional Work</h2>
+            <p class="section-subtitle">
+              Learn about Elite Interior, the turnkey interior execution and design company co-founded by Vikash Kumar.
+            </p>
+          </div>
+
+          <div class="business-showcase">
+            <div class="business-header-strip">
+              <div>
+                <h3 style="font-size: 1.5rem; margin-bottom: 2px;">Elite Interior</h3>
+                <p style="color: var(--color-text-secondary); font-size: 0.9375rem;">
+                  Turnkey Interior Execution &amp; Modular Solutions · Ahmedabad, Gujarat
+                </p>
+              </div>
+              <div>
+                <a
+                  href="https://eliteinterior.pro/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary"
+                >
+                  <span>Explore Elite Interior</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="business-grid">
+              <div>
+                <p style="color: var(--color-text-secondary); line-height: 1.7; margin-bottom: 1.25rem;">
+                  Elite Interior combines structured digital systems with over a decade of practical on-ground site execution. Co-founders Vikash Kumar and Ramesh Taak established the firm to bring transparency, adherence to project timelines, and high craftsmanship to residential homeowners.
+                </p>
+
+                <div class="services-grid">
+                  <div class="service-card">
+                    <h5>Complete Home Interiors</h5>
+                    <p>Turnkey solutions for 2BHK, 3BHK, 4BHK apartments, and private bungalows.</p>
+                  </div>
+                  <div class="service-card">
+                    <h5>Modular Kitchens</h5>
+                    <p>Ergonomic, modern modular kitchens tailored to cooking styles and storage needs.</p>
+                  </div>
+                  <div class="service-card">
+                    <h5>Living &amp; Dining Spaces</h5>
+                    <p>Custom entertainment units, false ceiling concepts, and ambient lighting.</p>
+                  </div>
+                  <div class="service-card">
+                    <h5>Bedroom Suites &amp; Wardrobes</h5>
+                    <p>Custom wardrobes, headboards, dressing units, and functional storage.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="business-sidebar">
+                <div class="business-info-block">
+                  <h4>Official Website</h4>
+                  <p>
+                    <a href="https://eliteinterior.pro/" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent); font-weight: 600;">
+                      https://eliteinterior.pro/ ↗
+                    </a>
+                  </p>
+                </div>
+
+                <div class="business-info-block">
+                  <h4>Office Address</h4>
+                  <address>
+                    A-212a, Sun South Trade, Gala Gymkhana Road, South Bopal, Ahmedabad, Gujarat – 380058
+                  </address>
+                </div>
+
+                <div class="business-info-block">
+                  <h4>Direct Phone</h4>
+                  <p>+91 8529326036</p>
+                </div>
+
+                <div class="business-info-block">
+                  <h4>Leadership</h4>
+                  <p>
+                    <strong>Vikash Kumar:</strong> Digital &amp; Business Operations<br />
+                    <strong>Ramesh Taak:</strong> Site Operations &amp; Execution
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-[#050914] border-t border-slate-800/80 pt-16 pb-12 mt-20 text-slate-400 text-xs">
-      <div class="max-w-6xl mx-auto px-4 sm:px-6">
-        <!-- Top Footer Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800/80">
-          
-          <!-- Col 1 & 2: Agency Bio & Social Links -->
-          <div class="lg:col-span-2 space-y-4">
-            <a href="index.html" class="flex items-center gap-2.5">
-              <div class="relative flex items-center justify-center shrink-0">
-                <img 
-                  src="logo.png" 
-                  alt="Drex Agency Logo" 
-                  class="drex-logo-footer rounded-full shadow-md shadow-blue-600/30" 
-                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" 
-                />
-                <div class="w-9 h-9 rounded-full bg-blue-600 hidden items-center justify-center font-extrabold text-white text-lg shadow-md shadow-blue-600/30">
-                  D
-                </div>
-              </div>
-              <div class="flex flex-col justify-center">
-                <div class="handwriting-font font-bold text-2xl leading-none tracking-wide">
-                  <span class="text-blue-500">Drex</span>
-                  <span class="text-white">Agency</span>
-                </div>
-                <span class="text-[9px] text-slate-400 font-medium tracking-wider uppercase">
-                  South Bopal, Ahmedabad
-                </span>
-              </div>
-            </a>
-
-            <p class="text-slate-400 text-xs leading-relaxed max-w-sm">
-              Drex Agency is Ahmedabad's premier digital growth & web development firm based in South Bopal. We engineer high-converting web applications, command local Google Maps search, and scale Meta ad campaigns.
+    <!-- FOOTER -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <h4 style="font-size: 1.125rem; color: var(--color-text-primary); margin-bottom: 2px;">Vikash Kumar</h4>
+            <p style="font-size: 0.875rem; color: var(--color-text-secondary);">
+              Co-Founder, Elite Interior · Ahmedabad, Gujarat
             </p>
-
-            <!-- Social Media Links -->
-            <div class="pt-2">
-              <div class="text-[11px] font-bold text-slate-300 uppercase tracking-wider mb-2.5">Follow & Connect</div>
-              <div class="flex items-center gap-2.5">
-                <a href="https://wa.me/916377155600" target="_blank" aria-label="WhatsApp" class="w-8 h-8 rounded-lg bg-slate-900 border border-slate-800 hover:border-emerald-500/50 hover:bg-emerald-500/10 hover:text-emerald-400 text-slate-400 flex items-center justify-center transition-all cursor-pointer">
-                  <i data-lucide="message-square" class="w-4 h-4"></i>
-                </a>
-                <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="w-8 h-8 rounded-lg bg-slate-900 border border-slate-800 hover:border-pink-500/50 hover:bg-pink-500/10 hover:text-pink-400 text-slate-400 flex items-center justify-center transition-all cursor-pointer">
-                  <i data-lucide="instagram" class="w-4 h-4"></i>
-                </a>
-                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn" class="w-8 h-8 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500/50 hover:bg-blue-500/10 hover:text-blue-400 text-slate-400 flex items-center justify-center transition-all cursor-pointer">
-                  <i data-lucide="linkedin" class="w-4 h-4"></i>
-                </a>
-                <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="w-8 h-8 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-600/50 hover:bg-blue-600/10 hover:text-blue-500 text-slate-400 flex items-center justify-center transition-all cursor-pointer">
-                  <i data-lucide="facebook" class="w-4 h-4"></i>
-                </a>
-                <a href="https://youtube.com" target="_blank" aria-label="YouTube" class="w-8 h-8 rounded-lg bg-slate-900 border border-slate-800 hover:border-red-500/50 hover:bg-red-500/10 hover:text-red-400 text-slate-400 flex items-center justify-center transition-all cursor-pointer">
-                  <i data-lucide="youtube" class="w-4 h-4"></i>
-                </a>
-                <a href="https://x.com" target="_blank" aria-label="Twitter/X" class="w-8 h-8 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-500/50 hover:bg-slate-500/10 hover:text-slate-200 text-slate-400 flex items-center justify-center transition-all cursor-pointer">
-                  <i data-lucide="twitter" class="w-4 h-4"></i>
-                </a>
-              </div>
-            </div>
           </div>
 
-          <!-- Col 3: Quick Navigation -->
-          <div class="space-y-3">
-            <h4 class="text-xs font-bold text-white uppercase tracking-wider">Quick Navigation</h4>
-            <ul class="space-y-2 text-xs">
-              <li><a href="index.html" class="hover:text-white transition-colors flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-blue-400"></i> Home</a></li>
-              <li><a href="services.html" class="hover:text-white transition-colors flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-blue-400"></i> Services</a></li>
-              <li><a href="case-studies.html" class="hover:text-white transition-colors flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-blue-400"></i> Portfolio & Case Studies</a></li>
-              <li><a href="blog.html" class="hover:text-white transition-colors flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-blue-400"></i> Blog & Insights</a></li>
-              <li><a href="pricing.html" class="hover:text-white transition-colors flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-blue-400"></i> Pricing & Packages</a></li>
-              <li><a href="about.html" class="hover:text-white transition-colors flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-blue-400"></i> About Us</a></li>
-              <li><a href="contact.html" class="hover:text-white transition-colors flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-blue-400"></i> Contact Us</a></li>
-            </ul>
-          </div>
-
-          <!-- Col 4: Core Services -->
-          <div class="space-y-3">
-            <h4 class="text-xs font-bold text-white uppercase tracking-wider">Our Expertise</h4>
-            <ul class="space-y-2 text-xs">
-              <li><a href="services.html#web-dev" class="hover:text-white transition-colors">React Web Apps</a></li>
-              <li><a href="services.html#local-seo" class="hover:text-white transition-colors">Local Google Maps SEO</a></li>
-              <li><a href="services.html#meta-ads" class="hover:text-white transition-colors">Meta & Instagram Ads</a></li>
-              <li><a href="services.html#lead-gen" class="hover:text-white transition-colors">High-Ticket Leads</a></li>
-              <li><a href="services.html#seo-audit" class="hover:text-white transition-colors">Local Schema Audits</a></li>
-              <li><a href="services.html#cro" class="hover:text-white transition-colors">Conversion Rate Boost</a></li>
-            </ul>
-          </div>
-
-          <!-- Col 5: Contact Info -->
-          <div class="space-y-3">
-            <h4 class="text-xs font-bold text-white uppercase tracking-wider">Ahmedabad HQ</h4>
-            <div class="space-y-2.5 text-xs text-slate-400">
-              <div class="flex items-start gap-2">
-                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-blue-400 shrink-0 mt-0.5"></i>
-                <span>South Bopal, Ahmedabad, Gujarat</span>
-              </div>
-              <div class="flex items-center gap-2">
-                <i data-lucide="message-square" class="w-3.5 h-3.5 text-emerald-400 shrink-0"></i>
-                <a href="https://wa.me/916377155600" target="_blank" class="hover:text-white transition-colors">+91 6377155600</a>
-              </div>
-              <div class="flex items-center gap-2">
-                <i data-lucide="phone-call" class="w-3.5 h-3.5 text-red-400 shrink-0"></i>
-                <a href="tel:+918529326036" class="hover:text-white transition-colors">+91 8529326036</a>
-              </div>
-              <div class="flex items-center gap-2">
-                <i data-lucide="mail" class="w-3.5 h-3.5 text-blue-400 shrink-0"></i>
-                <a href="mailto:drexagency36@gmail.com" class="hover:text-white transition-colors">drexagency36@gmail.com</a>
-              </div>
-              <div class="flex items-center gap-2 pt-1">
-                <i data-lucide="clock" class="w-3.5 h-3.5 text-emerald-400 shrink-0"></i>
-                <span>Mon - Sat: 9:30 AM - 7:30 PM</span>
-              </div>
-            </div>
-          </div>
-
+          <nav class="footer-nav" aria-label="Footer Navigation">
+            <a href="#home" class="footer-link">Home</a>
+            <a href="#profiles" class="footer-link">Profiles</a>
+            <a href="#connect" class="footer-link">Connect</a>
+            <a href="#documents" class="footer-link">Documents</a>
+            <a href="/gallery.html" class="footer-link">Gallery</a>
+            <a href="#about" class="footer-link">About</a>
+            <a href="https://eliteinterior.pro/" target="_blank" rel="noopener noreferrer" class="footer-link">Elite Interior ↗</a>
+          </nav>
         </div>
 
-        <!-- Bottom Footer Sub-bar -->
-        <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <div>
-            © 2026 <strong>Drex Agency</strong>. Founded by <span class="text-slate-300 font-semibold">Vikash Kumar</span>. All rights reserved.
-          </div>
-          <div class="flex items-center gap-4">
-            <a href="index.html#contact" class="hover:text-slate-300 transition-colors">Privacy Policy</a>
-            <span>•</span>
-            <a href="index.html#contact" class="hover:text-slate-300 transition-colors">Terms of Service</a>
-            <span>•</span>
-            <span class="text-slate-400 flex items-center gap-1">
-              Made with <i data-lucide="heart" class="w-3 h-3 text-red-500 fill-red-500"></i> in <span class="text-blue-400 font-bold">South Bopal, Ahmedabad</span>
-            </span>
-          </div>
+        <div class="footer-bottom">
+          <p style="font-size: 0.75rem; color: var(--color-text-muted); max-width: 600px; line-height: 1.5;">
+            Official personal brand and professional profile of Vikash Kumar. All associations, background details, and digital profiles are verified against authentic business records.
+          </p>
+          <p>&copy; 2026 Vikash Kumar. All rights reserved.</p>
         </div>
       </div>
     </footer>
 
-    <!-- Universal WhatsApp / Inquiry Popup Modal -->
-    <div id="inquiry-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200">
-      <div class="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 max-w-md w-full relative shadow-2xl space-y-4">
-        <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white p-1.5 rounded-full bg-slate-800/80 cursor-pointer">
-          <i data-lucide="x" class="w-4 h-4"></i>
-        </button>
-
-        <div class="text-center">
-          <div class="w-12 h-12 rounded-full bg-blue-600/20 border border-blue-500/30 text-blue-400 flex items-center justify-center mx-auto mb-3">
-            <i data-lucide="message-square" class="w-6 h-6"></i>
-          </div>
-          <h3 class="text-lg font-bold text-white" id="modal-title">Get a Free Strategy Consultation</h3>
-          <p class="text-xs text-slate-400 mt-1">Connect directly with Drex Agency founder Vikash Kumar via WhatsApp.</p>
+    <!-- INTERACTIVE LIGHTBOX MODAL -->
+    <div class="lightbox-modal" id="galleryLightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Photo Lightbox">
+      <div class="lightbox-content-box">
+        <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">✕</button>
+        <button type="button" class="lightbox-arrow lightbox-prev" id="lightboxPrev" aria-label="Previous image">‹</button>
+        <button type="button" class="lightbox-arrow lightbox-next" id="lightboxNext" aria-label="Next image">›</button>
+        
+        <div class="lightbox-img-wrapper">
+          <img src="" alt="" class="lightbox-img" id="lightboxImg" />
         </div>
 
-        <form onsubmit="handleModalSubmit(event)" class="space-y-3 pt-2">
-          <div>
-            <label class="block text-[11px] font-semibold text-slate-300 mb-1">Your Name</label>
-            <input type="text" id="modal-name" required placeholder="e.g. Amit Patel" class="w-full px-3.5 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-blue-500" />
-          </div>
-          <div>
-            <label class="block text-[11px] font-semibold text-slate-300 mb-1">WhatsApp Phone Number</label>
-            <input type="tel" id="modal-phone" required placeholder="e.g. +91 63771 55600" class="w-full px-3.5 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-blue-500" />
-          </div>
-          <div>
-            <label class="block text-[11px] font-semibold text-slate-300 mb-1">Service Required</label>
-            <input type="text" id="modal-service" readonly class="w-full px-3.5 py-2 rounded-xl bg-slate-800 border border-slate-700 text-xs text-blue-300 font-medium focus:outline-none" />
-          </div>
-          <button type="submit" class="w-full py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs transition-colors flex items-center justify-center gap-2 shadow-lg shadow-blue-600/30 cursor-pointer">
-            <span>Connect on WhatsApp Now</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
-          </button>
-        </form>
+        <div class="lightbox-caption-box">
+          <span class="lightbox-caption-title" id="lightboxCaption"></span>
+          <span class="lightbox-caption-counter" id="lightboxCounter"></span>
+        </div>
       </div>
     </div>
 
-    <!-- JavaScript Functions for Navigation & Modals -->
-    <script>
-      // Initialize Lucide Icons
-      lucide.createIcons();
+    <!-- DIGITAL VISITING CARD PREVIEW MODAL -->
+    <div class="modal-overlay" id="cardModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalCardTitle">
+      <div class="modal-container">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalCardTitle">Digital Visiting Card</h3>
+          <button type="button" class="modal-close" id="cardModalClose" aria-label="Close dialog">✕</button>
+        </div>
 
-      function toggleMenu() {
-        const menu = document.getElementById('menu-dropdown');
-        menu.classList.toggle('hidden');
-      }
+        <div class="modal-body">
+          <div class="vcard-preview-box">
+            <div class="vcard-header">
+              <div>
+                <div class="vcard-name">VIKASH KUMAR</div>
+                <div class="vcard-role">Co-Founder · Elite Interior</div>
+              </div>
+              <div class="vcard-logo">ELITE INTERIOR</div>
+            </div>
 
-      function openModal(serviceName = 'General Growth Inquiry') {
-        document.getElementById('modal-service').value = serviceName;
-        document.getElementById('modal-title').innerText = 'Inquire: ' + serviceName;
-        document.getElementById('inquiry-modal').classList.remove('hidden');
-      }
+            <div class="vcard-details">
+              <div><strong>Direct Phone:</strong> +91 8529326036</div>
+              <div><strong>Email:</strong> vikashkumar823981@gmail.com</div>
+              <div><strong>Office:</strong> A-212a, Sun South Trade, South Bopal, Ahmedabad 380058</div>
+              <div><strong>Web:</strong> vikash.eliteinterior.pro</div>
+            </div>
+          </div>
+        </div>
 
-      function closeModal() {
-        document.getElementById('inquiry-modal').classList.add('hidden');
-        sessionStorage.setItem('popupDismissed', 'true');
-      }
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" id="downloadVcfBtn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
+              <polyline points="17 21 17 13 7 13 7 21"></polyline>
+              <polyline points="7 3 7 8 15 8"></polyline>
+            </svg>
+            <span>Save Contact (.vcf)</span>
+          </button>
+          <a
+            href="/documents/vikash-kumar-visiting-card.pdf"
+            download="vikash-kumar-visiting-card.pdf"
+            class="btn btn-primary btn-sm"
+          >
+            <span>Download PDF</span>
+          </a>
+        </div>
+      </div>
+    </div>
 
-      function handleModalSubmit(event) {
-        event.preventDefault();
-        const name = document.getElementById('modal-name').value;
-        const phone = document.getElementById('modal-phone').value;
-        const service = document.getElementById('modal-service').value;
+    <!-- Back to Top Button -->
+    <button type="button" class="back-to-top" id="backToTopBtn" aria-label="Back to top">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </button>
 
-        const text = encodeURIComponent(`Hi Drex Agency! My name is ${name} (${phone}). I would like to inquire about ${service}.`);
-        window.open(`https://wa.me/916377155600?text=${text}`, '_blank');
-        closeModal();
-      }
+    <!-- Toast Notification Indicator -->
+    <div class="toast-notice" id="toastNotice" role="status" aria-live="polite"></div>
 
-      function handleFormSubmit(event) {
-        event.preventDefault();
-        const name = document.getElementById('form-name').value;
-        const phone = document.getElementById('form-phone').value;
-        const service = document.getElementById('form-service').value;
-        const message = document.getElementById('form-message').value;
-
-        const text = encodeURIComponent(`Hi Drex Agency! My name is ${name} (${phone}).\nService: ${service}\nMessage: ${message}`);
-        window.open(`https://wa.me/916377155600?text=${text}`, '_blank');
-      }
-
-      // Auto-trigger enquiry form popup modal when the website is first opened
-      window.addEventListener('DOMContentLoaded', () => {
-        setTimeout(() => {
-          if (!sessionStorage.getItem('popupDismissed')) {
-            openModal('Free Growth Consultation & Website Audit');
-          }
-        }, 1200);
-      });
-    </script>
+    <!-- Vanilla JavaScript -->
+    <script src="/script.js"></script>
   </body>
 </html>

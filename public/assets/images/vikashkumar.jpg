@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFCFA" />
+      <stop offset="100%" stop-color="#F2F2ED" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#EFAA27" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="750" fill="url(#bgGrad)" />
+  <rect x="12" y="12" width="576" height="726" rx="16" fill="#FFFFFF" stroke="#EAEAEA" stroke-width="2" />
+  
+  <!-- Architectural grid accent lines -->
+  <g stroke="#F0F0EB" stroke-width="1" stroke-dasharray="4,6">
+    <line x1="120" y1="20" x2="120" y2="730" />
+    <line x1="300" y1="20" x2="300" y2="730" />
+    <line x1="480" y1="20" x2="480" y2="730" />
+    <line x1="20" y1="225" x2="580" y2="225" />
+    <line x1="20" y1="525" x2="580" y2="525" />
+  </g>
+
+  <!-- Central Crest / Monogram -->
+  <g transform="translate(300, 315)">
+    <circle cx="0" cy="0" r="48" fill="#FCFCFA" stroke="#EAEAEA" stroke-width="2" />
+    <circle cx="0" cy="0" r="40" fill="#FFFFFF" stroke="url(#goldGrad)" stroke-width="2.5" />
+    <g fill="none" stroke="url(#goldGrad)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-20 -15 L-6 20 L6 -8" />
+      <path d="M8 -20 L8 20" />
+      <path d="M24 -12 L10 4 L24 20" />
+    </g>
+  </g>
+
+  <!-- Labels -->
+  <text x="300" y="487.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#111111" letter-spacing="-0.3">
+    Vikash Kumar
+  </text>
+  <text x="300" y="540" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#EFAA27">
+    Co-Founder · Elite Interior
+  </text>
+
+  <!-- Replaceable instruction badge -->
+  <g transform="translate(170, 600)">
+    <rect width="260" height="28" rx="6" fill="#F6F6F3" stroke="#E2E2DC" stroke-width="1" />
+    <text x="130" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#777777">
+      [Replace with: vikashkumar.jpg]
+    </text>
+  </g>
+
+  <!-- Corner gold marks -->
+  <path d="M 24 38 L 24 24 L 38 24" fill="none" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" />
+  <path d="M 562 24 L 576 24 L 576 38" fill="none" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" />
+  <path d="M 24 712 L 24 726 L 38 726" fill="none" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" />
+  <path d="M 562 726 L 576 726 L 576 712" fill="none" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" />
+</svg>

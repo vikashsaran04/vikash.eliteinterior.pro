@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="50%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect x="12" y="12" width="776" height="576" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" />
+  
+  <!-- Architectural grid accent lines -->
+  <g stroke="#F1F5F9" stroke-width="1" stroke-dasharray="4,6">
+    <line x1="160" y1="20" x2="160" y2="580" />
+    <line x1="400" y1="20" x2="400" y2="580" />
+    <line x1="640" y1="20" x2="640" y2="580" />
+    <line x1="20" y1="180" x2="780" y2="180" />
+    <line x1="20" y1="420" x2="780" y2="420" />
+  </g>
+
+  <!-- Central Crest / Monogram in Royal Blue -->
+  <g transform="translate(400, 252)">
+    <circle cx="0" cy="0" r="48" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2" />
+    <circle cx="0" cy="0" r="40" fill="#FFFFFF" stroke="url(#blueGrad)" stroke-width="2.5" />
+    <g fill="none" stroke="url(#blueGrad)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-20 -15 L-6 20 L6 -8" />
+      <path d="M8 -20 L8 20" />
+      <path d="M24 -12 L10 4 L24 20" />
+    </g>
+  </g>
+
+  <!-- Labels -->
+  <text x="400" y="390" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0F172A" letter-spacing="-0.3">
+    Office Base — Sun South Trade
+  </text>
+  <text x="400" y="432" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#2563EB">
+    South Bopal, Ahmedabad, Gujarat
+  </text>
+
+  <!-- Replaceable instruction badge -->
+  <g transform="translate(270, 480)">
+    <rect width="260" height="28" rx="6" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+    <text x="130" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#64748B">
+      [Replace with: vikash-kumar-office.jpg]
+    </text>
+  </g>
+
+  <!-- Corner blue marks -->
+  <path d="M 24 38 L 24 24 L 38 24" fill="none" stroke="url(#blueGrad)" stroke-width="2" stroke-linecap="round" />
+  <path d="M 762 24 L 776 24 L 776 38" fill="none" stroke="url(#blueGrad)" stroke-width="2" stroke-linecap="round" />
+  <path d="M 24 562 L 24 576 L 38 576" fill="none" stroke="url(#blueGrad)" stroke-width="2" stroke-linecap="round" />
+  <path d="M 762 576 L 776 576 L 776 562" fill="none" stroke="url(#blueGrad)" stroke-width="2" stroke-linecap="round" />
+</svg>

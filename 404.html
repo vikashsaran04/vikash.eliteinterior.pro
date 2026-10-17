@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found (404) | Vikash Kumar</title>
+    <meta name="robots" content="noindex, follow" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      .error-wrapper {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem 1.25rem;
+        background: #F8FAFC;
+      }
+      .error-badge {
+        font-size: 0.8125rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: var(--color-accent, #2563EB);
+        margin-bottom: 0.75rem;
+        text-transform: uppercase;
+      }
+      .error-code {
+        font-size: clamp(4rem, 12vw, 7rem);
+        font-weight: 800;
+        line-height: 1;
+        color: #0F172A;
+        margin-bottom: 0.75rem;
+        letter-spacing: -2px;
+      }
+      .error-title {
+        font-size: 1.35rem;
+        font-weight: 700;
+        color: #0F172A;
+        margin-bottom: 0.75rem;
+      }
+      .error-desc {
+        color: #475569;
+        max-width: 460px;
+        font-size: 0.9375rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+      }
+      .error-actions {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        max-width: 360px;
+      }
+      .error-actions .btn {
+        flex: 1;
+        min-width: 140px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="error-wrapper">
+      <div class="error-badge">Status 404</div>
+      <div class="error-code">404</div>
+      <h1 class="error-title">Page Not Found</h1>
+      <p class="error-desc">
+        The page you are looking for does not exist or may have been relocated. Return to the official personal profile of Vikash Kumar.
+      </p>
+      <div class="error-actions">
+        <a href="/" class="btn btn-primary">Return Home</a>
+        <a href="/gallery.html" class="btn btn-secondary">Photo Gallery</a>
+      </div>
+    </main>
+  </body>
+</html>

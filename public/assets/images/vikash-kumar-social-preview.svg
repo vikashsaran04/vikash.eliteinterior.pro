@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+    <linearGradient id="sBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="50%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#0F172A" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#sBg)" />
+  <rect x="30" y="30" width="1140" height="570" rx="20" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" filter="url(#cardShadow)" />
+  
+  <!-- Royal Blue top accent bar -->
+  <path d="M 50 32 L 1150 32" stroke="url(#sBlue)" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Left Content Column -->
+  <g transform="translate(80, 110)">
+    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#2563EB">
+      OFFICIAL PERSONAL PROFILE
+    </text>
+
+    <text x="0" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="64" font-weight="800" fill="#0F172A" letter-spacing="-1">
+      Vikash Kumar
+    </text>
+
+    <text x="0" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="600" fill="#2563EB">
+      Co-Founder, Elite Interior
+    </text>
+
+    <text x="0" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#475569" font-weight="400">
+      Interior Design, Turnkey Execution &amp; Digital Business Systems
+    </text>
+    <text x="0" y="250" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" fill="#64748B" font-weight="400">
+      Ahmedabad, Gujarat · Roots in Bamarla, Barmer, Rajasthan
+    </text>
+
+    <g transform="translate(0, 310)">
+      <rect x="0" y="0" width="180" height="42" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5" />
+      <text x="20" y="26" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="600" fill="#0F172A">
+        eliteinterior.pro
+      </text>
+
+      <rect x="195" y="0" width="225" height="42" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5" />
+      <text x="215" y="26" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="600" fill="#0F172A">
+        +91 8529326036
+      </text>
+    </g>
+
+    <text x="0" y="420" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="15" font-weight="600" fill="#2563EB">
+      https://vikash.eliteinterior.pro/
+    </text>
+  </g>
+
+  <!-- Right Visual Frame in Blue & White -->
+  <g transform="translate(760, 95)">
+    <rect width="360" height="440" rx="24" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2" />
+    <circle cx="180" cy="180" r="90" fill="#FFFFFF" stroke="url(#sBlue)" stroke-width="3" filter="url(#cardShadow)" />
+    
+    <g fill="none" stroke="url(#sBlue)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M135 145 L165 215 L190 165" />
+      <path d="M195 140 L195 218" />
+      <path d="M232 152 L198 185 L234 220" />
+    </g>
+    
+    <text x="180" y="320" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="700" fill="#0F172A">
+      VIKASH KUMAR
+    </text>
+    <text x="180" y="350" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="600" fill="#2563EB">
+      Co-Founder · Elite Interior
+    </text>
+    <text x="180" y="380" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="400" fill="#64748B">
+      Ahmedabad, Gujarat
+    </text>
+  </g>
+</svg>

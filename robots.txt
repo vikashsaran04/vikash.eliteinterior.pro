@@ -1,0 +1,10 @@
+# robots.txt for https://vikash.eliteinterior.pro/
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /assets/gallery/
+Allow: /assets/images/
+Allow: /documents/
+
+# Sitemap location
+Sitemap: https://vikash.eliteinterior.pro/sitemap.xml
